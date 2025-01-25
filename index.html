@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nós dois</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <script src="src/JS/script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Modak&family=Playwrite+IN:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+       
+    <div class="titulo-do-album">
+        <h1>Nosso albúm digital </h1>
+        </div>
+
+        <div class="nome-do-casal"><h1>Vitor Nunes & Bianca Nunes</h1></div>
+
+
+    <div class="carrossel">
+        <div class="container" id="img">
+            <img src="./src/imagens/foto1.jpg" id="imagem1" alt="">
+            <img src="./src/imagens/foto2.jpg" id="imagem2" alt="">
+            <img src="./src/imagens/foto3.jpg" id="imagem3" alt="">
+            <img src="./src/imagens/foto4.jpg" id="imagem4" alt="">
+            <img src="./src/imagens/foto5.jpg" id="imagem5" alt="">
+            <img src="./src/imagens/foto6.jpg" id="imagem6" alt="">
+            <img src="./src/imagens/foto7.jpg" id="imagem7" alt="">
+            <img src="./src/imagens/foto8.jpg" id="imagem8" alt="">
+        </div>
+    </div>
+
+        <div class="texto-inferior">
+            <p>A gente se conheceu ainda adolescentes, no ensino médio, e logo se tornamos inseparáveis. 
+                O amor entre nós cresceu e namoramos, com o tempo, selamos esse compromisso com o casamento. 
+                A nossa união floresceu ainda mais quando tivemos o nosso primeiro filho, que trouxe ainda mais alegria e união para nós. 
+                Hoje, com a nossa vida construída e recheada de momentos especiais, estamos prestes a realizar mais um grande sonho: a imigração para um novo país, 
+                um passo importante para o futuro da nossa família. A felicidade é visívél na gente, e a sensação de que, juntos,
+                conseguimos conquistar tudo o que desejamos fortalece ainda mais o nosso vínculo, te amo..</p>
+        </div>
+
+        <div class="texto-dias">
+            <p>Os dias passaram né mor?! mas você sabe exatamente quantos dias estamos juntos? <br> Vamos descobrir!</p>
+        </div>
+
+        <div class="contador-de-dias">
+
+        <form name="form_main">
+            <label for="date_ini">Data do início: </label> 
+            <input name="date_ini" id="date_ini" type="date">
+            <label for="date_end">Data de hoje: </label> 
+            <input name="date_end" id="date_end" type="date"> <br> 
+            <button type="button" onclick="countDays()">Contar</button> <br>
+            <label for="days">Dias juntos: </label> 
+            <span id="days"></span> <br>
+        </form>
+
+        </div>
+    </div>
+</body>
+</html>
